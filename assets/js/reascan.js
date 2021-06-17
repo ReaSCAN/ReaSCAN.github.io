@@ -46,6 +46,7 @@ document.addEventListener("DOMContentLoaded", function(){
     var current_dp = reascan_data[data_ids.pop()]
     var filename = '/assets/data-browser-examples/' + current_dp['no_target_img_name'];
     var caption = current_dp['pattern'];
+    console.log(caption);
     if (caption == "p1") {
         caption = "Simple (no-clause)";
     } else if (caption == "p2") {
