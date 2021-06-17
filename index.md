@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<img src="https://i.ibb.co/zXKwmYn/Screen-Shot-2021-06-16-at-8-22-52-PM.png" width="800">
+![overview](/assets/images/overview.png)
 
 # ReaSCAN: Compositional Reasoning in Language Grounding
 ReaSCAN is a synthetic navigation task that requires models to reason about surroundings over syntactically difficult languages.
@@ -436,7 +436,7 @@ In case, if there are overlayed objects in a single cell, we add them together. 
 
 Two simplified abstract reasoning challenges with ReaSCAN. The task mimics human reasoning test where giving a set of input-output (input on the left and output on the right) pairs, the task taker needs to guess the output for the last input. For each task, we provide one potential abstract reasoning to solve the task.
 
-<img src="https://i.ibb.co/0J4n24c/Rea-SCAN-ARC.png" width="800">
+![reascan-arc](/assets/images/ReaSCAN-ARC-pdf.png)
 
 You can generate such tasks using the script provided in `code/dataset/future-looking-demo.ipynb`.
 
