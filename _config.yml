@@ -4,7 +4,6 @@ name: ReaSCAN: The Reasoning-based SCAN Benchmark
 description: ReaSCAN: The Reasoning-based SCAN Benchmark
 show_downloads: true
 is_project_page: true
-markdown: kramdown
 github:
   zip_url: https://drive.google.com/file/d/1tRCl-ciPSz-XRDYFgy0O36YpDl48VydP/view?usp=sharing
   tar_url: https://drive.google.com/file/d/1tRCl-ciPSz-XRDYFgy0O36YpDl48VydP/view?usp=sharing
