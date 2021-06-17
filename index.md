@@ -71,7 +71,7 @@ This section contains the leaderboard for scores obtained by papers on ReaSCAN. 
 If you are using ReaSCAN, please consider to cite our paper as,
 ```stex
   @article{wu-etal-2021-reascan,
-    title={{ReaSCAN}: Compositional Reasoning in Language Grounding},
+    title={ReaSCAN: Compositional Reasoning in Language Grounding},
     author={Wu, Zhengxuan and Kreiss, Elisa and Ong, Desmond C. and Potts, Christopher},
     journal={},
     url={},
