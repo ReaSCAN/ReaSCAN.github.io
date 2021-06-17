@@ -20,6 +20,8 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="/assets/data-browser-examples/metadata.json"></script>
+    <script src="/assets/js/reascan.js"></script>
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
@@ -37,6 +39,51 @@
     </header>
 
     <main id="content" class="main-content" role="main">
+
+    <div class="content_container">
+        <div class="header">
+            <p>ReaSCAN</p>
+        </div>
+        <div class="text">
+            <p>Some ReaSCAN intro</p>
+            <br>
+            <hr>
+            <br>
+        </div>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <button onclick="change_text()" style="padding:5px;">New example!</button>
+        </div>
+        <br>
+        <div style="border: solid 1px black; padding: 12px;">
+            <div class="row">
+                <div class="col-xs-12 col-md-5">
+                    <img id="pic" src="data-browser-examples/0-target.png" style="width:100%; border-radius: 0%; margin-bottom: 10px;" border="2" />
+                </div>
+                <div class="col-xs-12 col-md-7" style='text-align:left; margin-top: auto; margin-bottom: auto;'>
+                <!-- <div class="col-xs-12 col-md-6" style='margin-top: auto; margin-bottom: auto;'></div> -->
+                    <p>Command: <i id="img-description">x</i></p>
+                    <br>
+                    <br>
+                    <hr>
+                    <br>
+                    <p>Command pattern: <i id="img-caption">x</i></p>
+                    <p>Action sequence: <i id="img-context">x</i></p>
+                </div>
+            </div>
+            <div>
+                <button onclick="reveal_target()" style="padding:5px;">Reveal target!</button>
+            </div>
+        </div>
+        <!-- <div class="text">
+            <br><br>
+            <hr>
+            <br>
+            <p>All of the examples above are captions and alt descriptions <strong>Wikipedia users provided</strong> for the respective images. The <strong>quality of those texts varies</strong>, especially for descriptions. This is likely due to the fact that they are not visually displayed to the majority of Wikipedia users. This formulates a separate challenge for advancing image accessibility systems: <strong>what makes good descriptions and how can we select for them</strong>.</p>
+        </div> -->
+    </div>
+
+
+      
       <p><img src="/assets/images/overview.png" alt="overview" /></p>
 
       <h1 id="reascan-compositional-reasoning-in-language-grounding">ReaSCAN: Compositional Reasoning in Language Grounding</h1>
