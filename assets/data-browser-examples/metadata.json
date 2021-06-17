@@ -1,4 +1,4 @@
-[
+var reascan_data = [
     {
         "pattern": "p1",
         "command": "walk to the small yellow cylinder",
