@@ -6,6 +6,10 @@ layout: default
 
 ReaSCAN is a synthetic navigation task that requires models to reason about surroundings over syntactically difficult languages.
 
+## Release Notes
+* 06/17/2021-First Official Release: We update model performance results by fixing known issues. We include more compositional splits as well. 
+* 06/07/2021-Initial Release: We submit our preprint to NIPS2021.
+
 ## Getting Started
 
 ### Step 1: Download ReaSCAN
@@ -48,5 +52,28 @@ data_json = json.load(open(path_to_data, "r"))
 print(data_json["examples"].keys())
 ```
 
-## Leaderboards
+## Leaderboard
+This section contains the leaderboard for scores obtained by papers on ReaSCAN. To add scores please consider a pull request. 
 
+|                                      | M-LSTM          | GCN-LSTM       |
+|--------------------------------------|-----------------|----------------|
+| Random                               | 79.04 +\- 1.24  | 98.96 +\- 0.59 |
+| A1: novel color modifier             | 50.36 +\- 4.03  | 92.25 +\- 0.77 |
+| A2: novel color attribute            | 14.65 +\- 0.55  | 42.05 +\- 4.55 |
+| A3: novel size modifier              | 50.98 +\- 3.69  | 87.46 +\- 2.22 |
+| B1: novel co-occurrence of objects   | 52.17 +\- 1.63  | 69.74 +\- 0.30 |
+| B2: novel co-occurrence of relations | 39.41 +\- 1.53  | 52.80 +\- 2.75 |
+| C1: novel conjunctive clause length  | 49.68 +\- 2.73  | 57.01 +\- 7.99 |
+| C2: novel relative clauses           | 25.74 +\- 1.36  | 22.07 +\- 2.66 |
+| Avg ReaSCAN Score                    | 40.43           | 60.48          |
+
+## Usage
+If you are using ReaSCAN, please consider to cite our paper as,
+```bash
+  @article{wu-etal-2021-reascan,
+    title={{ReaSCAN}: Compositional Reasoning in Language Grounding},
+    author={Wu, Zhengxuan and Kreiss, Elisa and Ong, Desmond C. and Potts, Christopher},
+    journal={},
+    url={},
+    year={2021}}
+```
