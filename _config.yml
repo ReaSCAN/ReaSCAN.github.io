@@ -1,5 +1,5 @@
 title: "ReaSCAN: Compositional Reasoning in Language Grounding"
-description: ReaSCAN is a synthetic navigation task that requires models to reason about surroundings over syntactically difficult languages.
+description: The Reasoning-based SCAN Benchmark
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
