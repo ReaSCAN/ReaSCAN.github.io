@@ -22,6 +22,32 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="/assets/data-browser-examples/metadata.json"></script>
     <script src="/assets/js/reascan.js"></script>
+    <style>
+      .row-s {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+          margin-right: -15px;
+          margin-left: -15px;
+      }
+
+      .col-xs-12-s {
+
+      }
+
+      .col-md-5-s {
+
+      }
+
+      .col-md-7-s {
+
+      }
+
+      .content_container-s {
+
+      }
+    </style>
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
@@ -40,7 +66,7 @@
 
     <main id="content" class="main-content" role="main">
 
-    <div class="content_container">
+    <div class="content_container-s">
         <div class="header">
             <p>ReaSCAN</p>
         </div>
@@ -55,11 +81,11 @@
         </div>
         <br>
         <div style="border: solid 1px black; padding: 12px;">
-            <div class="row">
-                <div class="col-xs-12 col-md-5">
-                    <img id="pic" src="data-browser-examples/0-target.png" style="width:100%; border-radius: 0%; margin-bottom: 10px;" border="2" />
+            <div class="row-s">
+                <div class="col-xs-12-s col-md-5-s">
+                    <img id="pic" src="/assets/data-browser-examples/0-target.png" style="width:100%; border-radius: 0%; margin-bottom: 10px;" border="2" />
                 </div>
-                <div class="col-xs-12 col-md-7" style='text-align:left; margin-top: auto; margin-bottom: auto;'>
+                <div class="col-xs-12-s col-md-7-s" style='text-align:left; margin-top: auto; margin-bottom: auto;'>
                 <!-- <div class="col-xs-12 col-md-6" style='margin-top: auto; margin-bottom: auto;'></div> -->
                     <p>Command: <i id="img-description">x</i></p>
                     <br>
@@ -83,7 +109,7 @@
     </div>
 
 
-      
+
       <p><img src="/assets/images/overview.png" alt="overview" /></p>
 
       <h1 id="reascan-compositional-reasoning-in-language-grounding">ReaSCAN: Compositional Reasoning in Language Grounding</h1>
