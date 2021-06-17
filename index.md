@@ -65,7 +65,7 @@ This section contains the leaderboard for scores obtained by papers on ReaSCAN. 
 | B2: novel co-occurrence of relations | 39.41 +\- 1.53  | 52.80 +\- 2.75 |
 | C1: novel conjunctive clause length  | 49.68 +\- 2.73  | 57.01 +\- 7.99 |
 | C2: novel relative clauses           | 25.74 +\- 1.36  | 22.07 +\- 2.66 |
-| Avg ReaSCAN Score                    | 40.43           | 60.48          |
+| Avg ReaSCAN Score                    | 40.43           | **60.48**      |
 
 [1] Laura Ruis, Jacob Andreas, Marco Baroni, Diane Bouchacourt, Brenden M. Lake. 2020. ["A Benchmark for Systematic Generalization in Grounded Language Understanding
 "](https://proceedings.neurips.cc/paper/2020/file/e5a90182cc81e12ab5e72d66e0b46fe3-Paper.pdf) in NeurIPS 2020.
