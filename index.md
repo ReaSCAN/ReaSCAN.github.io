@@ -55,7 +55,7 @@ print(data_json["examples"].keys())
 ## Leaderboard
 This section contains the leaderboard for scores obtained by papers on ReaSCAN. To add scores please consider a pull request. 
 
-|                                      | M-LSTM          | GCN-LSTM       |
+|                                      | M-LSTM [1]      | GCN-LSTM [2]   |
 |--------------------------------------|-----------------|----------------|
 | Random                               | 79.04 +\- 1.24  | 98.96 +\- 0.59 |
 | A1: novel color modifier             | 50.36 +\- 4.03  | 92.25 +\- 0.77 |
@@ -66,6 +66,12 @@ This section contains the leaderboard for scores obtained by papers on ReaSCAN. 
 | C1: novel conjunctive clause length  | 49.68 +\- 2.73  | 57.01 +\- 7.99 |
 | C2: novel relative clauses           | 25.74 +\- 1.36  | 22.07 +\- 2.66 |
 | Avg ReaSCAN Score                    | 40.43           | 60.48          |
+
+[1] Laura Ruis, Jacob Andreas, Marco Baroni, Diane Bouchacourt, Brenden M. Lake. 2020. ["A Benchmark for Systematic Generalization in Grounded Language Understanding
+"](https://proceedings.neurips.cc/paper/2020/file/e5a90182cc81e12ab5e72d66e0b46fe3-Paper.pdf) in NeurIPS 2020.
+
+[2] Tong Gao, Qi Huang, Raymond J. Mooney. 2020. ["Systematic Generalization on gSCAN with Language Conditioned Embedding"](https://www.aclweb.org/anthology/2020.aacl-main.49.pdf) in AACL-IJCNLP 2020.
+
 
 ## Usage
 If you are using ReaSCAN, please consider to cite our paper as,
