@@ -9,9 +9,22 @@ function change_text(){
     var current_dp = reascan_data[data_ids.pop()]
     var filename = '/assets/data-browser-examples/' + current_dp['no_target_img_name'];
     var caption = current_dp['pattern'];
+    if (caption == "p1") {
+        caption = "Simple (no-clause)";
+    } else if (caption == "p2") {
+        caption = "1-relative-clause";
+    } else if (caption == "p3") {
+        caption = "2-relative-clauses";
+    } else if (caption == "p3-rd") {
+        caption = "2-relative-clauses (random distractors)";
+    } else if (caption == "p4") {
+        caption = "3-relative-clauses";
+    } else if (caption == "p3-relative") {
+        caption = "2-recursive-relative-clauses";
+    }
     var description = current_dp['command'];
     var context = current_dp['action_sequence'];
-    if (context.split(' ').length > 50){
+    if (context.split(' ').length > 50) {
         context = context.replace(/(([^\s]+\s\s*){70})(.*)/,"$1…") + "...";
     }
     document.getElementById('pic').src = filename;
@@ -33,6 +46,19 @@ document.addEventListener("DOMContentLoaded", function(){
     var current_dp = reascan_data[data_ids.pop()]
     var filename = '/assets/data-browser-examples/' + current_dp['no_target_img_name'];
     var caption = current_dp['pattern'];
+    if (caption == "p1") {
+        caption = "Simple (no-clause)";
+    } else if (caption == "p2") {
+        caption = "1-relative-clause";
+    } else if (caption == "p3") {
+        caption = "2-relative-clauses";
+    } else if (caption == "p3-rd") {
+        caption = "2-relative-clauses (random distractors)";
+    } else if (caption == "p4") {
+        caption = "3-relative-clauses";
+    } else if (caption == "p3-relative") {
+        caption = "2-recursive-relative-clauses";
+    }
     var description = current_dp['command'];
     var context = current_dp['action_sequence'];
     if (context.split(' ').length > 50){
