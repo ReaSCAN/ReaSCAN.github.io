@@ -1,5 +1,5 @@
 title: "ReaSCAN: Compositional Reasoning in Language Grounding"
-description: Zhengxuan Wu, Elisa Kreiss, Desmond C. Ong, Christopher Potts
+description: ReaSCAN is a synthetic navigation task that requires models to reason about surroundings over syntactically difficult languages.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
