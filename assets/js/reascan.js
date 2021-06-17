@@ -7,7 +7,7 @@ function shuffle(array) {
 
 function change_text(){
     var current_dp = reascan_data[data_ids.pop()]
-    var filename = 'data-browser-examples/' + current_dp['no_target_img_name'];
+    var filename = '/assets/data-browser-examples/' + current_dp['no_target_img_name'];
     var caption = current_dp['pattern'];
     var description = current_dp['command'];
     var context = current_dp['action_sequence'];
@@ -24,14 +24,14 @@ function change_text(){
 
 function reveal_target(){
     console.log("reveal target");
-    var filename = 'data-browser-examples/' + global_dp[0]['target_img_name'];
+    var filename = '/assets/data-browser-examples/' + global_dp[0]['target_img_name'];
     document.getElementById('pic').src = filename;
 }
 
 // console.log(reascan_data)
 document.addEventListener("DOMContentLoaded", function(){
     var current_dp = reascan_data[data_ids.pop()]
-    var filename = 'data-browser-examples/' + current_dp['no_target_img_name'];
+    var filename = '/assets/data-browser-examples/' + current_dp['no_target_img_name'];
     var caption = current_dp['pattern'];
     var description = current_dp['command'];
     var context = current_dp['action_sequence'];
