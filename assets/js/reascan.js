@@ -8,19 +8,19 @@ function shuffle(array) {
 function change_text(){
     var current_dp = reascan_data[data_ids.pop()]
     var filename = '/assets/data-browser-examples/' + current_dp['no_target_img_name'];
-    var caption = current_dp['pattern'];
+    var caption = current_dp['pattern'].trim();
     console.log(caption);
-    if (caption == "p1") {
+    if (caption === "p1") {
         caption = "Simple (no-clause)";
-    } else if (caption == "p2") {
+    } else if (caption === "p2") {
         caption = "1-relative-clause";
-    } else if (caption == "p3") {
+    } else if (caption === "p3") {
         caption = "2-relative-clauses";
-    } else if (caption == "p3-rd") {
+    } else if (caption === "p3-rd") {
         caption = "2-relative-clauses (random distractors)";
-    } else if (caption == "p4") {
+    } else if (caption === "p4") {
         caption = "3-relative-clauses";
-    } else if (caption == "p3-relative") {
+    } else if (caption === "p3-relative") {
         caption = "2-recursive-relative-clauses";
     }
     var description = current_dp['command'];
@@ -46,19 +46,19 @@ function reveal_target(){
 document.addEventListener("DOMContentLoaded", function(){
     var current_dp = reascan_data[data_ids.pop()]
     var filename = '/assets/data-browser-examples/' + current_dp['no_target_img_name'];
-    var caption = current_dp['pattern'];
+    var caption = current_dp['pattern'].trim();
     console.log(caption);
-    if (caption == "p1") {
+    if (caption === "p1") {
         caption = "Simple (no-clause)";
-    } else if (caption == "p2") {
+    } else if (caption === "p2") {
         caption = "1-relative-clause";
-    } else if (caption == "p3") {
+    } else if (caption === "p3") {
         caption = "2-relative-clauses";
-    } else if (caption == "p3-rd") {
+    } else if (caption === "p3-rd") {
         caption = "2-relative-clauses (random distractors)";
-    } else if (caption == "p4") {
+    } else if (caption === "p4") {
         caption = "3-relative-clauses";
-    } else if (caption == "p3-relative") {
+    } else if (caption === "p3-relative") {
         caption = "2-recursive-relative-clauses";
     }
     var description = current_dp['command'];
