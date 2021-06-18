@@ -6998,5 +6998,1405 @@ var reascan_data = [
         "action_sequence": "turn left,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk",
         "no_target_img_name": "999-no-target.png",
         "target_img_name": "999-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the big cylinder that is in the same column as a small blue square that is in the same row as a blue square cautiously",
+        "action_sequence": "turn left,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1000-no-target.png",
+        "target_img_name": "1000-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the small square that is in the same column as a big blue cylinder that is in the same row as a big yellow cylinder hesitantly",
+        "action_sequence": "walk,stay,walk,stay,walk,stay,walk,stay",
+        "no_target_img_name": "1001-no-target.png",
+        "target_img_name": "1001-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the green object that is in the same row as a blue circle that is in the same column as a small circle while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn left,walk",
+        "no_target_img_name": "1002-no-target.png",
+        "target_img_name": "1002-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big blue cylinder that is in the same column as a blue square that is in the same row as a big circle while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull",
+        "no_target_img_name": "1003-no-target.png",
+        "target_img_name": "1003-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the blue object that is in the same row as a big green cylinder that is in the same column as a small red circle cautiously",
+        "action_sequence": "turn left,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,push,turn left,turn right,turn right,turn left,push",
+        "no_target_img_name": "1004-no-target.png",
+        "target_img_name": "1004-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big red object that is in the same row as a small square that is in the same column as a big yellow circle while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn left,walk",
+        "no_target_img_name": "1005-no-target.png",
+        "target_img_name": "1005-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the small blue circle that is in the same row as a small square that is in the same column as the big green cylinder hesitantly",
+        "action_sequence": "turn left,turn left,walk,stay,walk,stay,turn right,walk,stay,walk,stay,walk,stay,walk,stay,walk,stay",
+        "no_target_img_name": "1006-no-target.png",
+        "target_img_name": "1006-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the small green square that is in the same column as a small blue circle that is in the same row as a big green cylinder while zigzagging",
+        "action_sequence": "turn left,turn left,walk,turn right,walk,walk,walk,walk",
+        "no_target_img_name": "1007-no-target.png",
+        "target_img_name": "1007-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big object that is in the same column as a small red circle that is in the same row as a big red circle while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk",
+        "no_target_img_name": "1008-no-target.png",
+        "target_img_name": "1008-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big yellow object that is in the same row as a green circle that is in the same column as a big red cylinder while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn right,walk,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull",
+        "no_target_img_name": "1009-no-target.png",
+        "target_img_name": "1009-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big blue object that is in the same row as a red circle that is in the same column as a blue cylinder",
+        "action_sequence": "turn left,walk",
+        "no_target_img_name": "1010-no-target.png",
+        "target_img_name": "1010-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the small yellow object that is in the same row as a small circle that is in the same column as a big green cylinder while zigzagging",
+        "action_sequence": "turn left,walk,walk,pull,pull,pull",
+        "no_target_img_name": "1011-no-target.png",
+        "target_img_name": "1011-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big yellow cylinder that is in the same row as a big square that is in the same column as a big green square",
+        "action_sequence": "turn left,walk,walk,walk,pull,pull,pull,pull,pull,pull",
+        "no_target_img_name": "1012-no-target.png",
+        "target_img_name": "1012-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big red object that is in the same row as a blue circle that is in the same column as a small yellow circle",
+        "action_sequence": "turn left,walk,walk",
+        "no_target_img_name": "1013-no-target.png",
+        "target_img_name": "1013-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the square that is in the same row as a green circle that is in the same column as a big blue cylinder while zigzagging",
+        "action_sequence": "walk,turn left,walk",
+        "no_target_img_name": "1014-no-target.png",
+        "target_img_name": "1014-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the big green object that is in the same row as a big blue circle that is in the same column as a big green cylinder while zigzagging",
+        "action_sequence": "turn left,turn left,walk,turn right,walk,turn left,walk",
+        "no_target_img_name": "1015-no-target.png",
+        "target_img_name": "1015-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the big blue circle that is in the same row as a small blue square that is in the same column as a green cylinder cautiously",
+        "action_sequence": "turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn right,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1016-no-target.png",
+        "target_img_name": "1016-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big green circle that is in the same row as a blue cylinder that is in the same column as a big red cylinder hesitantly",
+        "action_sequence": "turn right,walk,stay,pull,stay,pull,stay",
+        "no_target_img_name": "1017-no-target.png",
+        "target_img_name": "1017-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the green circle that is in the same column as a big cylinder that is in the same row as a big square while zigzagging",
+        "action_sequence": "walk,turn left,walk,turn right,walk,turn left,walk,turn right,walk,turn left,walk,turn right,walk",
+        "no_target_img_name": "1018-no-target.png",
+        "target_img_name": "1018-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the small blue square that is in the same row as a small yellow circle that is in the same column as a blue circle",
+        "action_sequence": "turn left,walk,walk,walk",
+        "no_target_img_name": "1019-no-target.png",
+        "target_img_name": "1019-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the small yellow object that is in the same column as a yellow cylinder that is in the same row as the big green square",
+        "action_sequence": "turn left,walk,walk",
+        "no_target_img_name": "1020-no-target.png",
+        "target_img_name": "1020-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big blue square that is in the same row as a big blue cylinder that is in the same column as a small blue circle hesitantly",
+        "action_sequence": "walk,stay,walk,stay,turn left,walk,stay,walk,stay",
+        "no_target_img_name": "1021-no-target.png",
+        "target_img_name": "1021-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the red object that is in the same row as a big green circle that is in the same column as a small green square cautiously",
+        "action_sequence": "turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1022-no-target.png",
+        "target_img_name": "1022-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big green cylinder that is in the same column as a small blue square that is in the same row as a small square while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk",
+        "no_target_img_name": "1023-no-target.png",
+        "target_img_name": "1023-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big red cylinder that is in the same column as a small circle that is in the same row as a green circle cautiously",
+        "action_sequence": "turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1024-no-target.png",
+        "target_img_name": "1024-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the small yellow object that is in the same column as a big red cylinder that is in the same row as a big green cylinder cautiously",
+        "action_sequence": "turn left,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1025-no-target.png",
+        "target_img_name": "1025-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big blue object that is in the same column as a big red circle that is in the same row as a red circle while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull",
+        "no_target_img_name": "1026-no-target.png",
+        "target_img_name": "1026-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the small blue object that is in the same row as a small green square that is in the same column as a big red circle",
+        "action_sequence": "turn left,walk,walk,walk",
+        "no_target_img_name": "1027-no-target.png",
+        "target_img_name": "1027-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big circle that is in the same row as a big green cylinder that is in the same column as a big red cylinder while zigzagging",
+        "action_sequence": "turn left,turn left,walk,turn left,walk,turn right,walk,turn left,walk,turn right,walk,turn left,walk,turn right,walk",
+        "no_target_img_name": "1028-no-target.png",
+        "target_img_name": "1028-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the small green object that is in the same row as a blue square that is in the same column as a big cylinder cautiously",
+        "action_sequence": "turn left,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1029-no-target.png",
+        "target_img_name": "1029-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the big yellow object that is in the same row as a yellow cylinder that is in the same column as a blue cylinder hesitantly",
+        "action_sequence": "turn left,walk,stay",
+        "no_target_img_name": "1030-no-target.png",
+        "target_img_name": "1030-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big yellow object that is in the same column as a small red circle that is in the same row as a big cylinder",
+        "action_sequence": "turn left,turn left,walk,walk,turn left,walk,push,push",
+        "no_target_img_name": "1031-no-target.png",
+        "target_img_name": "1031-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the green circle that is in the same row as a big blue cylinder that is in the same column as a green square while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn right,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,push,turn left,turn left,turn left,turn left,push",
+        "no_target_img_name": "1032-no-target.png",
+        "target_img_name": "1032-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the red object that is in the same row as a big green circle that is in the same column as a small green square cautiously",
+        "action_sequence": "turn left,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn right,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1033-no-target.png",
+        "target_img_name": "1033-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the small blue square that is in the same column as a blue cylinder that is in the same row as a red cylinder while zigzagging",
+        "action_sequence": "turn left,turn left,walk,turn right,walk,turn left,walk,turn right,walk,walk,walk",
+        "no_target_img_name": "1034-no-target.png",
+        "target_img_name": "1034-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the big blue circle that is in the same row as a small blue square that is in the same column as a green cylinder cautiously",
+        "action_sequence": "turn left,turn right,turn right,turn left,walk,turn left,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1035-no-target.png",
+        "target_img_name": "1035-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big object that is in the same column as a small red circle that is in the same row as a big red circle while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn right,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,push,turn left,turn left,turn left,turn left,push",
+        "no_target_img_name": "1036-no-target.png",
+        "target_img_name": "1036-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big blue cylinder that is in the same column as a blue square that is in the same row as the small green square hesitantly",
+        "action_sequence": "turn left,walk,stay,walk,stay,walk,stay",
+        "no_target_img_name": "1037-no-target.png",
+        "target_img_name": "1037-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big red object that is in the same row as a small blue circle that is in the same column as a blue cylinder",
+        "action_sequence": "walk,walk,walk,walk,turn left,walk,walk,walk,walk,walk,pull,pull,pull,pull",
+        "no_target_img_name": "1038-no-target.png",
+        "target_img_name": "1038-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the small green object that is in the same row as a big circle that is in the same column as a yellow cylinder",
+        "action_sequence": "turn left,turn left,walk,walk,turn right,walk,walk,walk,push,push,push,push",
+        "no_target_img_name": "1039-no-target.png",
+        "target_img_name": "1039-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the small blue square that is in the same column as a small circle that is in the same row as a red circle",
+        "action_sequence": "turn left,turn left,walk,walk,turn left,walk,walk,walk,walk,walk",
+        "no_target_img_name": "1040-no-target.png",
+        "target_img_name": "1040-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big green circle that is in the same column as a big yellow cylinder that is in the same row as a red cylinder while zigzagging",
+        "action_sequence": "walk,turn left,walk,turn right,walk,walk,pull,pull,pull,pull,pull,pull",
+        "no_target_img_name": "1041-no-target.png",
+        "target_img_name": "1041-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the green square that is in the same column as a big red cylinder that is in the same row as a big cylinder while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk",
+        "no_target_img_name": "1042-no-target.png",
+        "target_img_name": "1042-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the green square that is in the same row as a yellow cylinder that is in the same column as a small circle while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk",
+        "no_target_img_name": "1043-no-target.png",
+        "target_img_name": "1043-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the small object that is in the same row as a big green cylinder that is in the same column as a red cylinder hesitantly",
+        "action_sequence": "walk,stay,walk,stay,turn left,walk,stay,walk,stay,walk,stay",
+        "no_target_img_name": "1044-no-target.png",
+        "target_img_name": "1044-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the yellow object that is in the same row as a big square that is in the same column as a small blue square while zigzagging",
+        "action_sequence": "walk,turn right,walk,turn left,walk,walk,pull,pull,pull,pull,pull,pull,pull,pull",
+        "no_target_img_name": "1045-no-target.png",
+        "target_img_name": "1045-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the green circle that is in the same row as a blue cylinder that is in the same column as a small green square while zigzagging",
+        "action_sequence": "turn left,turn left,walk,walk",
+        "no_target_img_name": "1046-no-target.png",
+        "target_img_name": "1046-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the object that is in the same column as a big green square that is in the same row as a small red circle while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn right,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk",
+        "no_target_img_name": "1047-no-target.png",
+        "target_img_name": "1047-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big red object that is in the same column as a blue circle that is in the same row as a green circle while zigzagging",
+        "action_sequence": "turn left,turn left,walk,turn left,walk,turn right,walk,walk,walk,pull,pull,pull,pull,pull,pull,pull,pull",
+        "no_target_img_name": "1048-no-target.png",
+        "target_img_name": "1048-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the small green object that is in the same column as a blue square that is in the same row as a green square hesitantly",
+        "action_sequence": "turn left,turn left,walk,stay,turn left,walk,stay,walk,stay",
+        "no_target_img_name": "1049-no-target.png",
+        "target_img_name": "1049-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big red circle that is in the same column as a small green square that is in the same row as a big red cylinder",
+        "action_sequence": "turn left,turn left,walk,push,push",
+        "no_target_img_name": "1050-no-target.png",
+        "target_img_name": "1050-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the green cylinder that is in the same column as a blue square that is in the same row as a big green square hesitantly",
+        "action_sequence": "turn left,turn left,walk,stay,walk,stay,walk,stay,turn left,walk,stay,walk,stay,walk,stay",
+        "no_target_img_name": "1051-no-target.png",
+        "target_img_name": "1051-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the small green object that is in the same row as a green cylinder that is in the same column as a big green square cautiously",
+        "action_sequence": "turn left,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,push,turn left,turn right,turn right,turn left,push",
+        "no_target_img_name": "1052-no-target.png",
+        "target_img_name": "1052-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the blue square that is in the same row as a big green cylinder that is in the same column as a big yellow cylinder while zigzagging",
+        "action_sequence": "turn left,turn left,walk,push,push,push,push",
+        "no_target_img_name": "1053-no-target.png",
+        "target_img_name": "1053-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the blue cylinder that is in the same row as a big green square that is in the same column as the small yellow circle",
+        "action_sequence": "walk,walk,push,push",
+        "no_target_img_name": "1054-no-target.png",
+        "target_img_name": "1054-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the small blue object that is in the same row as a big green cylinder that is in the same column as a big circle",
+        "action_sequence": "turn left,turn left,walk,walk,turn left,walk,walk",
+        "no_target_img_name": "1055-no-target.png",
+        "target_img_name": "1055-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the yellow object that is in the same row as a small green square that is in the same column as the big red circle hesitantly",
+        "action_sequence": "turn left,turn left,walk,stay,walk,stay,walk,stay",
+        "no_target_img_name": "1056-no-target.png",
+        "target_img_name": "1056-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the small red circle that is in the same column as a big green cylinder that is in the same row as a big red cylinder while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,turn right,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull",
+        "no_target_img_name": "1057-no-target.png",
+        "target_img_name": "1057-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the red circle that is in the same column as a big square that is in the same row as a blue square while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull",
+        "no_target_img_name": "1058-no-target.png",
+        "target_img_name": "1058-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the big green object that is in the same column as a yellow cylinder that is in the same row as a big circle while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk",
+        "no_target_img_name": "1059-no-target.png",
+        "target_img_name": "1059-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the small yellow object that is in the same column as a green square that is in the same row as the red cylinder cautiously",
+        "action_sequence": "turn left,turn left,turn left,turn right,turn right,turn left,walk,turn right,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1060-no-target.png",
+        "target_img_name": "1060-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the small blue square that is in the same row as a small red circle that is in the same column as a red cylinder while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn right,walk",
+        "no_target_img_name": "1061-no-target.png",
+        "target_img_name": "1061-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the small object that is in the same column as a green circle that is in the same row as a blue circle cautiously",
+        "action_sequence": "turn left,turn left,turn left,turn right,turn right,turn left,walk,turn right,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1062-no-target.png",
+        "target_img_name": "1062-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the small yellow circle that is in the same column as a big blue cylinder that is in the same row as a small green square while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn right,walk",
+        "no_target_img_name": "1063-no-target.png",
+        "target_img_name": "1063-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the big object that is in the same row as a big blue circle that is in the same column as a small blue circle cautiously",
+        "action_sequence": "turn left,turn left,turn left,turn right,turn right,turn left,walk,turn right,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1064-no-target.png",
+        "target_img_name": "1064-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the small green square that is in the same row as a small green circle that is in the same column as a big yellow cylinder",
+        "action_sequence": "walk",
+        "no_target_img_name": "1065-no-target.png",
+        "target_img_name": "1065-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big red cylinder that is in the same column as a blue circle that is in the same row as a small blue square cautiously",
+        "action_sequence": "turn left,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,pull,turn left,turn right,turn right,turn left,pull,turn left,turn right,turn right,turn left,pull,turn left,turn right,turn right,turn left,pull",
+        "no_target_img_name": "1066-no-target.png",
+        "target_img_name": "1066-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big blue cylinder that is in the same column as a blue square that is in the same row as a small green square hesitantly",
+        "action_sequence": "walk,stay,turn right,walk,stay",
+        "no_target_img_name": "1067-no-target.png",
+        "target_img_name": "1067-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the cylinder that is in the same column as a big yellow circle that is in the same row as a small circle while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk",
+        "no_target_img_name": "1068-no-target.png",
+        "target_img_name": "1068-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big green cylinder that is in the same column as a small blue square that is in the same row as a small square while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,push,turn left,turn left,turn left,turn left,push",
+        "no_target_img_name": "1069-no-target.png",
+        "target_img_name": "1069-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big red circle that is in the same column as a small green square that is in the same row as a big red cylinder",
+        "action_sequence": "walk,walk,turn left,walk,push,push",
+        "no_target_img_name": "1070-no-target.png",
+        "target_img_name": "1070-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the red cylinder that is in the same column as a yellow circle that is in the same row as a small green square while zigzagging",
+        "action_sequence": "walk,turn left,walk,walk",
+        "no_target_img_name": "1071-no-target.png",
+        "target_img_name": "1071-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big blue circle that is in the same row as a small green square that is in the same column as a big cylinder while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn right,walk,turn left,turn left,turn left,turn left,pull",
+        "no_target_img_name": "1072-no-target.png",
+        "target_img_name": "1072-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the big blue object that is in the same column as a small green circle that is in the same row as a small square hesitantly",
+        "action_sequence": "turn left,turn left,walk,stay,turn right,walk,stay",
+        "no_target_img_name": "1073-no-target.png",
+        "target_img_name": "1073-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big red cylinder that is in the same column as a blue circle that is in the same row as a small blue square cautiously",
+        "action_sequence": "turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn right,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,pull,turn left,turn right,turn right,turn left,pull,turn left,turn right,turn right,turn left,pull,turn left,turn right,turn right,turn left,pull",
+        "no_target_img_name": "1074-no-target.png",
+        "target_img_name": "1074-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the small green object that is in the same column as a big circle that is in the same row as a red circle while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn right,walk,turn left,turn left,turn left,turn left,walk",
+        "no_target_img_name": "1075-no-target.png",
+        "target_img_name": "1075-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the small blue circle that is in the same column as a big square that is in the same row as a big cylinder cautiously",
+        "action_sequence": "turn left,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn right,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1076-no-target.png",
+        "target_img_name": "1076-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the small square that is in the same row as a blue circle that is in the same column as a yellow circle",
+        "action_sequence": "turn left,turn left,walk,walk,walk,turn left,walk",
+        "no_target_img_name": "1077-no-target.png",
+        "target_img_name": "1077-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big green object that is in the same column as a yellow circle that is in the same row as a small circle while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn right,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk",
+        "no_target_img_name": "1078-no-target.png",
+        "target_img_name": "1078-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big square that is in the same column as a big blue circle that is in the same row as a green cylinder",
+        "action_sequence": "turn left,turn left,walk",
+        "no_target_img_name": "1079-no-target.png",
+        "target_img_name": "1079-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the circle that is in the same row as a big red cylinder that is in the same column as a big cylinder hesitantly",
+        "action_sequence": "turn left,turn left,walk,stay,walk,stay,turn right,walk,stay,walk,stay,pull,stay,pull,stay,pull,stay,pull,stay,pull,stay,pull,stay",
+        "no_target_img_name": "1080-no-target.png",
+        "target_img_name": "1080-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big green object that is in the same column as a yellow circle that is in the same row as a small circle while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk",
+        "no_target_img_name": "1081-no-target.png",
+        "target_img_name": "1081-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the square that is in the same row as a big green circle that is in the same column as a green cylinder while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull",
+        "no_target_img_name": "1082-no-target.png",
+        "target_img_name": "1082-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the small green object that is in the same column as a small circle that is in the same row as a small yellow circle cautiously",
+        "action_sequence": "turn left,turn left,turn left,turn right,turn right,turn left,walk,turn right,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,pull",
+        "no_target_img_name": "1083-no-target.png",
+        "target_img_name": "1083-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the small blue object that is in the same row as a red circle that is in the same column as a big cylinder while zigzagging",
+        "action_sequence": "walk,turn left,walk,walk,pull,pull,pull",
+        "no_target_img_name": "1084-no-target.png",
+        "target_img_name": "1084-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the small object that is in the same column as a blue cylinder that is in the same row as the yellow circle while zigzagging",
+        "action_sequence": "turn left,turn left,walk",
+        "no_target_img_name": "1085-no-target.png",
+        "target_img_name": "1085-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big object that is in the same row as a blue cylinder that is in the same column as the small green square hesitantly",
+        "action_sequence": "turn left,turn left,walk,stay,walk,stay,turn left,walk,stay",
+        "no_target_img_name": "1086-no-target.png",
+        "target_img_name": "1086-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the small object that is in the same column as a green circle that is in the same row as a big blue square",
+        "action_sequence": "turn right,walk,push",
+        "no_target_img_name": "1087-no-target.png",
+        "target_img_name": "1087-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the small object that is in the same column as a green circle that is in the same row as a big blue square",
+        "action_sequence": "walk,turn left,walk,walk,walk,push,push",
+        "no_target_img_name": "1088-no-target.png",
+        "target_img_name": "1088-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big green object that is in the same row as a big red circle that is in the same column as the small green circle",
+        "action_sequence": "turn left,turn left,walk,turn right,walk,walk",
+        "no_target_img_name": "1089-no-target.png",
+        "target_img_name": "1089-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the blue circle that is in the same column as a big blue cylinder that is in the same row as a green square",
+        "action_sequence": "turn left,turn left,walk,walk,pull,pull",
+        "no_target_img_name": "1090-no-target.png",
+        "target_img_name": "1090-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the red object that is in the same column as a green square that is in the same row as a yellow cylinder hesitantly",
+        "action_sequence": "walk,stay,walk,stay,turn left,walk,stay,walk,stay,walk,stay",
+        "no_target_img_name": "1091-no-target.png",
+        "target_img_name": "1091-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the big blue cylinder that is in the same column as a big red circle that is in the same row as the small green circle",
+        "action_sequence": "turn left,turn left,walk,turn left,walk,walk,walk",
+        "no_target_img_name": "1092-no-target.png",
+        "target_img_name": "1092-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big cylinder that is in the same row as a small blue circle that is in the same column as a big blue square cautiously",
+        "action_sequence": "turn left,turn left,turn left,turn right,turn right,turn left,walk,turn right,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,pull,turn left,turn right,turn right,turn left,pull,turn left,turn right,turn right,turn left,pull,turn left,turn right,turn right,turn left,pull",
+        "no_target_img_name": "1093-no-target.png",
+        "target_img_name": "1093-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the blue object that is in the same row as a big green cylinder that is in the same column as the small blue square cautiously",
+        "action_sequence": "turn left,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,push,turn left,turn right,turn right,turn left,push",
+        "no_target_img_name": "1094-no-target.png",
+        "target_img_name": "1094-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big yellow object that is in the same row as a yellow cylinder that is in the same column as a big red cylinder while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,push,turn left,turn left,turn left,turn left,push,turn left,turn left,turn left,turn left,push,turn left,turn left,turn left,turn left,push,turn left,turn left,turn left,turn left,push,turn left,turn left,turn left,turn left,push",
+        "no_target_img_name": "1095-no-target.png",
+        "target_img_name": "1095-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big blue cylinder that is in the same column as a blue square that is in the same row as a big circle while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk",
+        "no_target_img_name": "1096-no-target.png",
+        "target_img_name": "1096-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big cylinder that is in the same column as a blue circle that is in the same row as a big red circle while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull",
+        "no_target_img_name": "1097-no-target.png",
+        "target_img_name": "1097-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the small green square that is in the same row as a red circle that is in the same column as a big cylinder hesitantly",
+        "action_sequence": "turn left,turn left,walk,stay,turn left,walk,stay,walk,stay,walk,stay,pull,stay,pull,stay,pull,stay",
+        "no_target_img_name": "1098-no-target.png",
+        "target_img_name": "1098-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the red cylinder that is in the same column as a green circle that is in the same row as a small blue square cautiously",
+        "action_sequence": "turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,pull,turn left,turn right,turn right,turn left,pull,turn left,turn right,turn right,turn left,pull,turn left,turn right,turn right,turn left,pull,turn left,turn right,turn right,turn left,pull,turn left,turn right,turn right,turn left,pull",
+        "no_target_img_name": "1099-no-target.png",
+        "target_img_name": "1099-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the green cylinder that is in the same column as a blue square that is in the same row as a big green square hesitantly",
+        "action_sequence": "turn left,turn left,walk,stay,walk,stay,walk,stay,walk,stay,walk,stay",
+        "no_target_img_name": "1100-no-target.png",
+        "target_img_name": "1100-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the green cylinder that is in the same column as a blue square that is in the same row as a big green square hesitantly",
+        "action_sequence": "walk,stay,walk,stay",
+        "no_target_img_name": "1101-no-target.png",
+        "target_img_name": "1101-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the small circle that is in the same column as a big green cylinder that is in the same row as a small green square",
+        "action_sequence": "walk,walk,walk,walk",
+        "no_target_img_name": "1102-no-target.png",
+        "target_img_name": "1102-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big blue cylinder that is in the same column as a blue square that is in the same row as a big circle while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull",
+        "no_target_img_name": "1103-no-target.png",
+        "target_img_name": "1103-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the small square that is in the same column as a green cylinder that is in the same row as a big cylinder hesitantly",
+        "action_sequence": "walk,stay,walk,stay,walk,stay,turn right,walk,stay,push,stay,push,stay",
+        "no_target_img_name": "1104-no-target.png",
+        "target_img_name": "1104-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the small green object that is in the same row as a blue square that is in the same column as a big cylinder cautiously",
+        "action_sequence": "turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn right,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1105-no-target.png",
+        "target_img_name": "1105-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the small green object that is in the same column as a blue square that is in the same row as a green square hesitantly",
+        "action_sequence": "turn left,turn left,walk,stay,turn left,walk,stay,walk,stay",
+        "no_target_img_name": "1106-no-target.png",
+        "target_img_name": "1106-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the red object that is in the same column as a big green square that is in the same row as a big green circle cautiously",
+        "action_sequence": "turn left,turn left,turn left,turn right,turn right,turn left,walk,turn right,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1107-no-target.png",
+        "target_img_name": "1107-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the small green object that is in the same column as a big circle that is in the same row as a red circle while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk",
+        "no_target_img_name": "1108-no-target.png",
+        "target_img_name": "1108-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the small yellow circle that is in the same row as a big green square that is in the same column as a red cylinder",
+        "action_sequence": "walk,walk,turn left,walk,walk,walk",
+        "no_target_img_name": "1109-no-target.png",
+        "target_img_name": "1109-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the big cylinder that is in the same column as a small blue square that is in the same row as a blue square cautiously",
+        "action_sequence": "turn left,turn left,turn left,turn right,turn right,turn left,walk,turn right,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1110-no-target.png",
+        "target_img_name": "1110-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big blue cylinder that is in the same column as a blue square that is in the same row as the small green square hesitantly",
+        "action_sequence": "walk,stay,walk,stay,turn left,walk,stay,walk,stay,push,stay",
+        "no_target_img_name": "1111-no-target.png",
+        "target_img_name": "1111-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the green circle that is in the same column as a big green cylinder that is in the same row as a small blue square cautiously",
+        "action_sequence": "turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1112-no-target.png",
+        "target_img_name": "1112-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the circle that is in the same column as a green square that is in the same row as a big cylinder hesitantly",
+        "action_sequence": "walk,stay,turn right,walk,stay,pull,stay,pull,stay",
+        "no_target_img_name": "1113-no-target.png",
+        "target_img_name": "1113-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the yellow cylinder that is in the same column as a big green circle that is in the same row as a big square hesitantly",
+        "action_sequence": "turn left,turn left,walk,stay,walk,stay,walk,stay,walk,stay,turn left,walk,stay,pull,stay",
+        "no_target_img_name": "1114-no-target.png",
+        "target_img_name": "1114-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big blue object that is in the same column as a yellow circle that is in the same row as a big blue cylinder",
+        "action_sequence": "turn left,turn left,walk,turn right,walk,walk,walk,pull,pull,pull,pull,pull,pull,pull,pull",
+        "no_target_img_name": "1115-no-target.png",
+        "target_img_name": "1115-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the small yellow object that is in the same row as a blue circle that is in the same column as a blue square",
+        "action_sequence": "walk,turn left,walk,walk,walk",
+        "no_target_img_name": "1116-no-target.png",
+        "target_img_name": "1116-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the circle that is in the same row as a small blue square that is in the same column as a big green cylinder hesitantly",
+        "action_sequence": "turn left,turn left,walk,stay,turn right,walk,stay",
+        "no_target_img_name": "1117-no-target.png",
+        "target_img_name": "1117-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the small object that is in the same row as a big red circle that is in the same column as a big blue square cautiously",
+        "action_sequence": "turn left,turn right,turn right,turn left,walk,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1118-no-target.png",
+        "target_img_name": "1118-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the small square that is in the same column as a big blue cylinder that is in the same row as a big yellow cylinder hesitantly",
+        "action_sequence": "turn left,turn left,walk,stay,walk,stay,walk,stay,turn right,walk,stay,walk,stay,walk,stay",
+        "no_target_img_name": "1119-no-target.png",
+        "target_img_name": "1119-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the blue object that is in the same column as a small blue circle that is in the same row as a yellow circle cautiously",
+        "action_sequence": "turn left,turn left,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1120-no-target.png",
+        "target_img_name": "1120-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big square that is in the same row as a small yellow circle that is in the same column as a small circle while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn right,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk",
+        "no_target_img_name": "1121-no-target.png",
+        "target_img_name": "1121-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the blue circle that is in the same column as a blue cylinder that is in the same row as a green square hesitantly",
+        "action_sequence": "walk,stay,walk,stay,walk,stay,turn left,walk,stay,walk,stay,walk,stay",
+        "no_target_img_name": "1122-no-target.png",
+        "target_img_name": "1122-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the object that is in the same row as a blue square that is in the same column as the green cylinder cautiously",
+        "action_sequence": "turn left,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,pull,turn left,turn right,turn right,turn left,pull",
+        "no_target_img_name": "1123-no-target.png",
+        "target_img_name": "1123-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big circle that is in the same column as a big blue cylinder that is in the same row as a big yellow cylinder hesitantly",
+        "action_sequence": "turn left,turn left,walk,stay,walk,stay,turn right,walk,stay",
+        "no_target_img_name": "1124-no-target.png",
+        "target_img_name": "1124-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the square that is in the same row as a big green circle that is in the same column as a green cylinder while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,turn right,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk",
+        "no_target_img_name": "1125-no-target.png",
+        "target_img_name": "1125-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the blue object that is in the same column as a blue square that is in the same row as a yellow cylinder cautiously",
+        "action_sequence": "turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn right,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1126-no-target.png",
+        "target_img_name": "1126-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the big yellow object that is in the same column as a yellow circle that is in the same row as a big blue circle",
+        "action_sequence": "turn left,turn left,walk,walk,walk,walk,turn left,walk,walk,walk",
+        "no_target_img_name": "1127-no-target.png",
+        "target_img_name": "1127-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the yellow object that is in the same row as a small blue circle that is in the same column as a red circle while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn right,walk,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull",
+        "no_target_img_name": "1128-no-target.png",
+        "target_img_name": "1128-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big green circle that is in the same row as a big blue square that is in the same column as a blue cylinder while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn right,walk",
+        "no_target_img_name": "1129-no-target.png",
+        "target_img_name": "1129-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the green cylinder that is in the same column as a small red circle that is in the same row as a green circle while zigzagging",
+        "action_sequence": "turn left,turn left,walk,pull,pull,pull,pull,pull,pull",
+        "no_target_img_name": "1130-no-target.png",
+        "target_img_name": "1130-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the small blue object that is in the same column as a small blue circle that is in the same row as a big square while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,walk",
+        "no_target_img_name": "1131-no-target.png",
+        "target_img_name": "1131-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the yellow cylinder that is in the same row as a small green square that is in the same column as a big circle hesitantly",
+        "action_sequence": "walk,stay,walk,stay,turn left,walk,stay",
+        "no_target_img_name": "1132-no-target.png",
+        "target_img_name": "1132-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the blue cylinder that is in the same column as a small green square that is in the same row as a small green circle while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk",
+        "no_target_img_name": "1133-no-target.png",
+        "target_img_name": "1133-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the yellow cylinder that is in the same column as a big green circle that is in the same row as the small yellow circle",
+        "action_sequence": "walk,walk,walk,turn left,walk",
+        "no_target_img_name": "1134-no-target.png",
+        "target_img_name": "1134-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the small yellow object that is in the same column as a yellow cylinder that is in the same row as the big green square",
+        "action_sequence": "turn left,walk,walk,walk,walk",
+        "no_target_img_name": "1135-no-target.png",
+        "target_img_name": "1135-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big green object that is in the same column as a yellow circle that is in the same row as a big red circle cautiously",
+        "action_sequence": "turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1136-no-target.png",
+        "target_img_name": "1136-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big red object that is in the same column as a small green square that is in the same row as a blue circle while zigzagging",
+        "action_sequence": "turn left,walk,walk,walk,walk",
+        "no_target_img_name": "1137-no-target.png",
+        "target_img_name": "1137-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big object that is in the same row as a red cylinder that is in the same column as a small green square while zigzagging",
+        "action_sequence": "turn left,walk,walk,walk,walk",
+        "no_target_img_name": "1138-no-target.png",
+        "target_img_name": "1138-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the small yellow object that is in the same row as a small circle that is in the same column as a big blue circle cautiously",
+        "action_sequence": "turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1139-no-target.png",
+        "target_img_name": "1139-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big object that is in the same row as a red cylinder that is in the same column as a small green square while zigzagging",
+        "action_sequence": "turn left,turn left,walk,turn left,walk,turn right,walk,turn left,walk,push,push",
+        "no_target_img_name": "1140-no-target.png",
+        "target_img_name": "1140-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big yellow object that is in the same row as a blue cylinder that is in the same column as a red cylinder",
+        "action_sequence": "turn left,turn left,walk,turn left,walk",
+        "no_target_img_name": "1141-no-target.png",
+        "target_img_name": "1141-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big object that is in the same column as a small circle that is in the same row as a big green circle while zigzagging",
+        "action_sequence": "walk,turn left,walk,turn right,walk,turn left,walk,turn right,walk,turn left,walk,walk",
+        "no_target_img_name": "1142-no-target.png",
+        "target_img_name": "1142-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big red circle that is in the same column as a big blue cylinder that is in the same row as a blue square cautiously",
+        "action_sequence": "turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,push,turn left,turn right,turn right,turn left,push,turn left,turn right,turn right,turn left,push,turn left,turn right,turn right,turn left,push,turn left,turn right,turn right,turn left,push,turn left,turn right,turn right,turn left,push,turn left,turn right,turn right,turn left,push,turn left,turn right,turn right,turn left,push",
+        "no_target_img_name": "1143-no-target.png",
+        "target_img_name": "1143-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the small green circle that is in the same row as a big green square that is in the same column as a green cylinder hesitantly",
+        "action_sequence": "turn left,turn left,walk,stay,walk,stay,walk,stay,walk,stay,turn right,walk,stay",
+        "no_target_img_name": "1144-no-target.png",
+        "target_img_name": "1144-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the small green object that is in the same row as a green cylinder that is in the same column as a big green square cautiously",
+        "action_sequence": "turn left,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn right,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1145-no-target.png",
+        "target_img_name": "1145-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the red cylinder that is in the same column as a small blue square that is in the same row as a blue square while zigzagging",
+        "action_sequence": "turn left,turn left,walk,walk",
+        "no_target_img_name": "1146-no-target.png",
+        "target_img_name": "1146-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the small blue object that is in the same row as a big green square that is in the same column as a big blue square hesitantly",
+        "action_sequence": "turn left,turn left,walk,stay,walk,stay,walk,stay",
+        "no_target_img_name": "1147-no-target.png",
+        "target_img_name": "1147-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the blue square that is in the same column as a blue cylinder that is in the same row as a big green circle cautiously",
+        "action_sequence": "turn left,turn right,turn right,turn left,walk,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,pull,turn left,turn right,turn right,turn left,pull",
+        "no_target_img_name": "1148-no-target.png",
+        "target_img_name": "1148-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the yellow cylinder that is in the same row as a small green square that is in the same column as a big circle hesitantly",
+        "action_sequence": "turn left,turn left,walk,stay,walk,stay",
+        "no_target_img_name": "1149-no-target.png",
+        "target_img_name": "1149-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big blue square that is in the same column as a small yellow circle that is in the same row as a big yellow cylinder while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk",
+        "no_target_img_name": "1150-no-target.png",
+        "target_img_name": "1150-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big green object that is in the same column as a big square that is in the same row as the red circle",
+        "action_sequence": "walk,walk,push,push,push,push,push,push",
+        "no_target_img_name": "1151-no-target.png",
+        "target_img_name": "1151-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the yellow cylinder that is in the same column as a green square that is in the same row as a blue square while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn right,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk",
+        "no_target_img_name": "1152-no-target.png",
+        "target_img_name": "1152-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the red cylinder that is in the same column as a small blue square that is in the same row as a blue square while zigzagging",
+        "action_sequence": "turn right,walk,push",
+        "no_target_img_name": "1153-no-target.png",
+        "target_img_name": "1153-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big blue circle that is in the same column as a big green cylinder that is in the same row as a green square hesitantly",
+        "action_sequence": "turn left,turn left,walk,stay,walk,stay,walk,stay,turn left,walk,stay",
+        "no_target_img_name": "1154-no-target.png",
+        "target_img_name": "1154-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the yellow circle that is in the same row as a big square that is in the same column as a big green cylinder cautiously",
+        "action_sequence": "turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1155-no-target.png",
+        "target_img_name": "1155-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the small object that is in the same row as a small blue circle that is in the same column as a big blue circle while zigzagging",
+        "action_sequence": "walk,turn right,walk",
+        "no_target_img_name": "1156-no-target.png",
+        "target_img_name": "1156-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the small red object that is in the same column as a small red circle that is in the same row as a small green circle while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn right,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull",
+        "no_target_img_name": "1157-no-target.png",
+        "target_img_name": "1157-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the big red cylinder that is in the same row as a big blue square that is in the same column as the big green circle cautiously",
+        "action_sequence": "turn left,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1158-no-target.png",
+        "target_img_name": "1158-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the big green square that is in the same column as a small green circle that is in the same row as a green circle hesitantly",
+        "action_sequence": "walk,stay,walk,stay",
+        "no_target_img_name": "1159-no-target.png",
+        "target_img_name": "1159-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the small blue square that is in the same row as a small yellow circle that is in the same column as a small green circle while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk",
+        "no_target_img_name": "1160-no-target.png",
+        "target_img_name": "1160-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the big object that is in the same row as a small blue square that is in the same column as a big square while zigzagging",
+        "action_sequence": "walk,turn left,walk,turn right,walk,turn left,walk,turn right,walk,turn left,walk",
+        "no_target_img_name": "1161-no-target.png",
+        "target_img_name": "1161-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the big green circle that is in the same column as a small green square that is in the same row as a big yellow cylinder while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk",
+        "no_target_img_name": "1162-no-target.png",
+        "target_img_name": "1162-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the small blue object that is in the same column as a yellow circle that is in the same row as a small red circle cautiously",
+        "action_sequence": "turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1163-no-target.png",
+        "target_img_name": "1163-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the big cylinder that is in the same row as a small blue square that is in the same column as a red circle cautiously",
+        "action_sequence": "turn left,turn left,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1164-no-target.png",
+        "target_img_name": "1164-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big red object that is in the same row as a blue circle that is in the same column as a small yellow circle",
+        "action_sequence": "turn left,turn left,walk,turn left,walk,walk,walk,walk,walk",
+        "no_target_img_name": "1165-no-target.png",
+        "target_img_name": "1165-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the small blue object that is in the same row as a small green square that is in the same column as a big red circle",
+        "action_sequence": "turn left,turn left,walk,walk",
+        "no_target_img_name": "1166-no-target.png",
+        "target_img_name": "1166-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the small blue object that is in the same column as a blue cylinder that is in the same row as a red cylinder while zigzagging",
+        "action_sequence": "walk,push,push",
+        "no_target_img_name": "1167-no-target.png",
+        "target_img_name": "1167-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the big yellow cylinder that is in the same row as a small blue circle that is in the same column as a small circle",
+        "action_sequence": "turn left,turn left,walk,turn left,walk",
+        "no_target_img_name": "1168-no-target.png",
+        "target_img_name": "1168-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the yellow object that is in the same column as a blue circle that is in the same row as a green circle",
+        "action_sequence": "turn right,walk,walk",
+        "no_target_img_name": "1169-no-target.png",
+        "target_img_name": "1169-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the blue square that is in the same row as a big green cylinder that is in the same column as a big yellow cylinder while zigzagging",
+        "action_sequence": "turn left,turn left,walk,turn left,walk,turn right,walk,walk",
+        "no_target_img_name": "1170-no-target.png",
+        "target_img_name": "1170-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the small green object that is in the same row as a green cylinder that is in the same column as a big circle hesitantly",
+        "action_sequence": "turn left,turn left,walk,stay,turn left,walk,stay,walk,stay",
+        "no_target_img_name": "1171-no-target.png",
+        "target_img_name": "1171-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the small object that is in the same row as a small yellow circle that is in the same column as a big red circle",
+        "action_sequence": "turn left,turn left,walk,turn right,walk,walk,walk,walk,walk",
+        "no_target_img_name": "1172-no-target.png",
+        "target_img_name": "1172-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the small square that is in the same row as a big red cylinder that is in the same column as a big circle hesitantly",
+        "action_sequence": "walk,stay,walk,stay,turn right,walk,stay,walk,stay,walk,stay,walk,stay,walk,stay,pull,stay,pull,stay,pull,stay,pull,stay",
+        "no_target_img_name": "1173-no-target.png",
+        "target_img_name": "1173-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the circle that is in the same row as a big red cylinder that is in the same column as a big cylinder hesitantly",
+        "action_sequence": "turn left,walk,stay,walk,stay,pull,stay,pull,stay,pull,stay,pull,stay,pull,stay,pull,stay",
+        "no_target_img_name": "1174-no-target.png",
+        "target_img_name": "1174-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the big blue object that is in the same column as a big yellow cylinder that is in the same row as the big green square while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk",
+        "no_target_img_name": "1175-no-target.png",
+        "target_img_name": "1175-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the big blue cylinder that is in the same column as a big red circle that is in the same row as a small green circle",
+        "action_sequence": "turn right,walk,walk",
+        "no_target_img_name": "1176-no-target.png",
+        "target_img_name": "1176-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the blue object that is in the same column as a big green square that is in the same row as a yellow circle while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk",
+        "no_target_img_name": "1177-no-target.png",
+        "target_img_name": "1177-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big blue square that is in the same row as a big yellow circle that is in the same column as the small red circle hesitantly",
+        "action_sequence": "turn left,turn left,walk,stay,walk,stay,walk,stay,turn left,walk,stay,walk,stay,pull,stay,pull,stay,pull,stay,pull,stay",
+        "no_target_img_name": "1178-no-target.png",
+        "target_img_name": "1178-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the small green square that is in the same column as a small blue circle that is in the same row as the big green cylinder while zigzagging",
+        "action_sequence": "walk,turn left,walk,walk",
+        "no_target_img_name": "1179-no-target.png",
+        "target_img_name": "1179-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the small object that is in the same column as a blue cylinder that is in the same row as a yellow circle while zigzagging",
+        "action_sequence": "turn left,turn left,walk,turn left,walk,turn right,walk,walk,walk",
+        "no_target_img_name": "1180-no-target.png",
+        "target_img_name": "1180-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big red object that is in the same column as a small green square that is in the same row as a blue circle while zigzagging",
+        "action_sequence": "walk,turn left,walk,turn right,walk,turn left,walk,walk,walk,pull,pull,pull,pull,pull,pull,pull,pull",
+        "no_target_img_name": "1181-no-target.png",
+        "target_img_name": "1181-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big red object that is in the same row as a blue circle that is in the same column as the small yellow circle",
+        "action_sequence": "turn left,turn left,walk,walk,turn left,walk,walk",
+        "no_target_img_name": "1182-no-target.png",
+        "target_img_name": "1182-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the small blue square that is in the same row as a red circle that is in the same column as a big cylinder",
+        "action_sequence": "walk",
+        "no_target_img_name": "1183-no-target.png",
+        "target_img_name": "1183-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the green cylinder that is in the same column as a blue square that is in the same row as a big green square hesitantly",
+        "action_sequence": "turn left,turn left,walk,stay,turn right,walk,stay",
+        "no_target_img_name": "1184-no-target.png",
+        "target_img_name": "1184-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the big yellow object that is in the same row as a yellow cylinder that is in the same column as the blue square cautiously",
+        "action_sequence": "turn left,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1185-no-target.png",
+        "target_img_name": "1185-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the red object that is in the same column as a yellow circle that is in the same row as a big red cylinder",
+        "action_sequence": "turn left,turn left,walk,turn right,walk",
+        "no_target_img_name": "1186-no-target.png",
+        "target_img_name": "1186-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the object that is in the same row as a big blue circle that is in the same column as the big yellow circle while zigzagging",
+        "action_sequence": "turn left,turn left,walk,walk,walk,walk,walk",
+        "no_target_img_name": "1187-no-target.png",
+        "target_img_name": "1187-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big blue square that is in the same column as a yellow cylinder that is in the same row as a blue circle while zigzagging",
+        "action_sequence": "walk,turn left,walk,walk,walk",
+        "no_target_img_name": "1188-no-target.png",
+        "target_img_name": "1188-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the big yellow cylinder that is in the same row as a small blue circle that is in the same column as a small circle",
+        "action_sequence": "walk,walk,walk,turn right,walk",
+        "no_target_img_name": "1189-no-target.png",
+        "target_img_name": "1189-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the big yellow object that is in the same row as a big circle that is in the same column as a green circle while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn right,walk,turn left,turn left,turn left,turn left,walk",
+        "no_target_img_name": "1190-no-target.png",
+        "target_img_name": "1190-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the big yellow object that is in the same row as a big blue cylinder that is in the same column as a big blue square hesitantly",
+        "action_sequence": "turn left,turn left,walk,stay,turn left,walk,stay,walk,stay",
+        "no_target_img_name": "1191-no-target.png",
+        "target_img_name": "1191-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the small object that is in the same row as a green cylinder that is in the same column as a big red cylinder while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk",
+        "no_target_img_name": "1192-no-target.png",
+        "target_img_name": "1192-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the small yellow object that is in the same column as a blue cylinder that is in the same row as a big square cautiously",
+        "action_sequence": "turn left,turn right,turn right,turn left,walk,turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1193-no-target.png",
+        "target_img_name": "1193-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big yellow object that is in the same column as a small yellow circle that is in the same row as the big blue circle hesitantly",
+        "action_sequence": "turn left,turn left,walk,stay,walk,stay,turn left,walk,stay,walk,stay,walk,stay",
+        "no_target_img_name": "1194-no-target.png",
+        "target_img_name": "1194-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "walk to the yellow object that is in the same row as a big square that is in the same column as a small blue square hesitantly",
+        "action_sequence": "turn left,turn left,walk,stay,turn right,walk,stay",
+        "no_target_img_name": "1195-no-target.png",
+        "target_img_name": "1195-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the small red object that is in the same column as a small green square that is in the same row as a yellow circle while spinning",
+        "action_sequence": "turn left,turn left,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,walk,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull,turn left,turn left,turn left,turn left,pull",
+        "no_target_img_name": "1196-no-target.png",
+        "target_img_name": "1196-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "push the big red object that is in the same row as a blue circle that is in the same column as a small yellow circle",
+        "action_sequence": "turn left,turn left,walk,push,push",
+        "no_target_img_name": "1197-no-target.png",
+        "target_img_name": "1197-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the small blue object that is in the same row as a blue square that is in the same column as the yellow circle cautiously",
+        "action_sequence": "turn left,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,pull,turn left,turn right,turn right,turn left,pull,turn left,turn right,turn right,turn left,pull",
+        "no_target_img_name": "1198-no-target.png",
+        "target_img_name": "1198-target.png"
+    },
+    {
+        "pattern": "-e",
+        "command": "pull the big red cylinder that is in the same column as a blue circle that is in the same row as a small blue square cautiously",
+        "action_sequence": "turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,walk,turn right,turn left,turn right,turn right,turn left,walk",
+        "no_target_img_name": "1199-no-target.png",
+        "target_img_name": "1199-target.png"
     }
 ]
