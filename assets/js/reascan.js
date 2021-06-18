@@ -20,7 +20,7 @@ function change_text(){
         caption = "2-relative-clauses (random distractors)";
     } else if (caption === "p4") {
         caption = "3-relative-clauses";
-    } else if (caption === "-e") {
+    } else if (caption.includes("-e")) {
         caption = "2-recursive-relative-clauses";
     }
     var description = current_dp['command'];
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function(){
         caption = "2-relative-clauses (random distractors)";
     } else if (caption === "p4") {
         caption = "3-relative-clauses";
-    } else if (caption === "-e") {
+    } else if (caption.includes("-e")) {
         caption = "2-recursive-relative-clauses";
     }
     var description = current_dp['command'];
