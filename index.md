@@ -7,6 +7,7 @@ layout: default
 ReaSCAN is a synthetic navigation task that requires models to reason about surroundings over syntactically difficult languages.
 
 ## Release Notes
+* **11/28/2021**: We release newer version of non-generalization testing sets for different command patterns as [ReaSCAN-v1.1.zip](https://drive.google.com/file/d/1foVr1MPqPqBQgoOqVgVFWUIwXERPMM4I/view?usp=sharing).
 * **07/29/2021**: Our paper is accepted to NeurIPS2021 with [OpenReview](https://openreview.net/forum?id=Rtquf4Jk0jN).
 * **06/17/2021**: We update model performance results by fixing known issues. We include more compositional splits as well. 
 * **06/07/2021**: We submit our preprint to NeurIPS2021.
@@ -17,16 +18,19 @@ ReaSCAN is a synthetic navigation task that requires models to reason about surr
 
 We generated ReaSCAN using our pipeline with fixed random seeds. You can reproduce the version of ReaSCAN we use in the paper by running the pipeline. Additionally, we also update the version we use to a online folder where you can directly download and use as-it-is. Note that, the dataset files are really large. It may take a while to download them.
 
-Our generated data is in [ReaSCAN-v1.0.zip](https://drive.google.com/file/d/1tRCl-ciPSz-XRDYFgy0O36YpDl48VydP/view?usp=sharing) (Note that we updated our files to hotfix some of existing issues at *06/16/2021*), which is saved in a shared drive. The dataset consists subsets generated for different patterns (P1: Simple (similar to gSCAN), P2: 1-relative-clause, P3: 2-relative-clauses, P4: 3-relative-clauses) and different compositional splits (see [our paper]() for details about each split).
+Our generated data is in [ReaSCAN-v1.1.zip](https://drive.google.com/file/d/1foVr1MPqPqBQgoOqVgVFWUIwXERPMM4I/view?usp=sharing) (Note that we updated our files to hotfix some of existing issues on *06/16/2021*. We also included newer non-generalization testing sets on *11/28/2021*), which is saved in a shared drive. The dataset consists subsets generated for different patterns (P1: Simple (similar to gSCAN), P2: 1-relative-clause, P3: 2-relative-clauses, P4: 3-relative-clauses) and different compositional splits (see [our paper](https://arxiv.org/abs/2109.08994) for details about each split).
 
 Random splits that can be used for training your models,
 * `ReaSCAN-compositional`: ReaSCAN all commands, containing train, dev and test sets.
 * `ReaSCAN-compositional-p1`: ReaSCAN Simple set, containing train, dev and test sets.
 * `ReaSCAN-compositional-p2`: ReaSCAN 1-relative-clause set, containing train, dev and test sets.
 * `ReaSCAN-compositional-p3`: ReaSCAN 2-relative-clauses set, containing train, dev and test sets.
-* `ReaSCAN-compositional-p1-test`: ReaSCAN Simple set, containing test set only.
-* `ReaSCAN-compositional-p2-test`: ReaSCAN 1-relative-clause set, containing test set only.
-* `ReaSCAN-compositional-p3-test`: ReaSCAN 2-relative-clauses set, containing test set only.
+* `ReaSCAN-compositional-p1-test`: ReaSCAN Simple set, containing test set only. Model performance is reported in the paper.
+* `ReaSCAN-compositional-p2-test`: ReaSCAN 1-relative-clause set, containing test set only. Model performance is reported in the paper.
+* `ReaSCAN-compositional-p3-test`: ReaSCAN 2-relative-clauses set, containing test set only. Model performance is reported in the paper.
+* `ReaSCAN-compositional-p1-test-updated`: **UPDATED** ReaSCAN Simple set, containing test set only. Model performance is **NOT** reported in the paper.
+* `ReaSCAN-compositional-p2-test-updated`: **UPDATED** ReaSCAN 1-relative-clause set, containing test set only. Model performance is **NOT** reported in the paper.
+* `ReaSCAN-compositional-p3-test-updated`: **UPDATED** ReaSCAN 2-relative-clauses set, containing test set only. Model performance is **NOT** reported in the paper.
 * `ReaSCAN-compositional-p3-rd`: ReaSCAN 2-relative-clauses set with random distractors, containing train, dev and test sets.
 
 Compositional splits that are designed to be zero-shot testing splits,
@@ -73,6 +77,7 @@ This section contains the leaderboard for scores obtained by papers on ReaSCAN. 
 
 [2] Tong Gao, Qi Huang, Raymond J. Mooney. 2020. ["Systematic Generalization on gSCAN with Language Conditioned Embedding"](https://www.aclweb.org/anthology/2020.aacl-main.49.pdf) in AACL-IJCNLP 2020.
 
+*Caveats*: The random split here is the same one used in our paper. Numbers may change with updated random split.
 
 ## Usage
 If you are using ReaSCAN, please consider to cite our paper as,
